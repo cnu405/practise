@@ -1,0 +1,9 @@
+AWSTemplateFormatVersion: "2010-09-09"
+Resources:
+   myInstance:
+     Type: 'AWS::EC2::Instance'
+     Properties: 
+        ImageId: ami-0ecb62995f68bb549
+        InstanceType: t3.micro
+        KeyName: work_virgina
+        SubnetId: subnet-0e63191247fafb890
